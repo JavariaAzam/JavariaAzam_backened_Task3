@@ -1,0 +1,56 @@
+/* css/style.css
+   Extra styling to make the app look clean and friendly
+   Works together with Bootstrap.
+*/
+
+/* Page background */
+body {
+  background: linear-gradient(180deg, #f8fbff 0%, #f1f6fb 100%);
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Card shadow and border radius */
+.card {
+  border-radius: 10px;
+}
+
+/* Button tweaks */
+.btn-primary {
+  background: #2563eb; /* slightly deeper blue */
+  border: none;
+}
+.btn-primary:hover {
+  background: #1e4ed8;
+}
+
+/* Form controls: larger and friendlier */
+.form-control {
+  padding: 12px 10px;
+  border-radius: 8px;
+}
+
+/* Table row spacing */
+.table td, .table th {
+  vertical-align: middle;
+}
+
+/* Navbar styling */
+.navbar-brand {
+  font-weight: 600;
+}
+
+/* Small helper text */
+.form-text {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+/* Alerts: softer colors */
+.alert {
+  border-radius: 8px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .navbar-text { display: none; }
+}
